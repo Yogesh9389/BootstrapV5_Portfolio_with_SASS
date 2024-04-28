@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-website-using-saas",
+  "version": "1.0.0",
+  "description": "Learing Bootstrap v5 with SAAS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap",
+    "-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Yogesh Pal",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.75.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "autoprefixer": "^10.4.19",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  }
+}

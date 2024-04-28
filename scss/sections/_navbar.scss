@@ -1,0 +1,35 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+
+.menu {
+        @include gradient;
+
+    li{
+        padding: 0 0.7rem;
+    }
+
+    a{
+        color: $white !important;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+}
+
+.logo-container{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.brand-name{
+    margin-top: 6px;
+    position: relative;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 75;
+    color: $white;
+    text-shadow: 2px 2px 4px rgba(121, 22, 167, 0.5);
+}
